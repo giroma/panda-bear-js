@@ -21,3 +21,6 @@ button.style.backgroundColor = 'black'
 
 var placeholder = document.querySelector('#name');
 placeholder.placeholder = 'heyooo';
+
+var placeholder = document.querySelector('#message');
+placeholder.placeholder = 'dont ask';
