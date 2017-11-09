@@ -33,3 +33,7 @@ placeholder.value = 'dont do it';
 
 var button = document.querySelector('#submit');
 button.disabled = true;
+
+var parent = document.querySelector('aside');
+var bio = document.querySelector('.bio-info');
+parent.removeChild(bio);
