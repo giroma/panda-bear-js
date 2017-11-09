@@ -30,3 +30,6 @@ placeholder.value = 'shhh';
 
 var placeholder = document.querySelector('#submit');
 placeholder.value = 'dont do it';
+
+var button = document.querySelector('#submit');
+button.disabled = true;
