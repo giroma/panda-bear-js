@@ -27,3 +27,6 @@ placeholder.placeholder = 'dont ask';
 
 var placeholder = document.querySelector('#name');
 placeholder.value = 'shhh';
+
+var placeholder = document.querySelector('#submit');
+placeholder.value = 'dont do it';
