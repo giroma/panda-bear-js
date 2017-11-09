@@ -24,3 +24,6 @@ placeholder.placeholder = 'heyooo';
 
 var placeholder = document.querySelector('#message');
 placeholder.placeholder = 'dont ask';
+
+var placeholder = document.querySelector('#name');
+placeholder.value = 'shhh';
