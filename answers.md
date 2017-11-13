@@ -46,3 +46,5 @@ time.parentElement.parentElement.removeChild(time.parentElement);
 var pika = document.querySelector('[title="Pikachu"]');
 var portfolio = document.querySelector('.portfolio-container');
 portfolio.appendChild(pika);
+
+for (x = 0; x < 10; x++) {portfolio.insertAdjacentHTML('beforeend', pika)}
