@@ -37,3 +37,12 @@ button.disabled = true;
 var parent = document.querySelector('aside');
 var bio = document.querySelector('.bio-info');
 parent.removeChild(bio);
+
+-----------------PART 2-------------------
+
+var time = document.querySelector('#time-travel');
+time.parentElement.parentElement.removeChild(time.parentElement);
+
+var pika = document.querySelector('[title="Pikachu"]');
+var portfolio = document.querySelector('.portfolio-container');
+portfolio.appendChild(pika);
