@@ -48,3 +48,12 @@ var portfolio = document.querySelector('.portfolio-container');
 portfolio.appendChild(pika);
 
 for (x = 0; x < 10; x++) {portfolio.insertAdjacentHTML('beforeend', pika)}
+
+var newListItem = document.createElement('li');
+newListItem.className += 'bio-info-item';
+var leftSpan = document.createElement('span');
+leftSpan.className += 'bio-info-title';
+var lastUpdated = document.createTextNode('Page Last Updated on');
+var rightSpan = document.createElement('span');
+rightSpan.className += 'bio-info-value';
+var updatedText = document.createTextNode(new Date());
